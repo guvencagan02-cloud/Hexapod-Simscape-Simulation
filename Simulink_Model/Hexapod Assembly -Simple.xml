@@ -1,0 +1,1146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="08/26/26||10:55:30" using="Simscape Multibody Link Version 7.4" from="SolidWorks 32.5.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Hexapod Assembly -Simple" uid="Hexapod Assembly -Simple" version="540">
+<AssemblyFile name="Hexapod Assembly -Simple.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Hexapod Base-1" uid="Hexapod Base-1" grounded="true" entityUid="Hexapod Base*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.14946754773427529 0.031226333501033425 0.057657277700286613</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.60000002384185791</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Hexapod Top Ring-1" uid="Hexapod Top Ring-1" entityUid="Hexapod Top Ring*:*Default">
+<Transform>
+<Rotation>0.88438954468756137 0.15381496536973222 0.44067685402756968 0.099344695185379348 -0.98453857445517479 0.1442720587927418 0.45605456338672012 -0.083813792648229177 -0.88599632243935855</Rotation>
+<Translation>-0.11675545408012139 0.32296937595970021 0.052230193095308804</Translation>
+</Transform>
+</Instance>
+<Instance name="Actuator Cylinder-4" uid="Actuator Cylinder-4" entityUid="Actuator Cylinder*:*Default">
+<Transform>
+<Rotation>0.99263294916071065 -0.12109119778392506 0.0040926836873374558 0.11924790177657993 0.9704293393514789 -0.20987337908304446 0.021442158529248034 0.20881527517187634 0.97772000833188444</Rotation>
+<Translation>-0.18024712111169311 0.28539497337582759 -0.059264999045651315</Translation>
+</Transform>
+</Instance>
+<Instance name="Actuator Tube-3" uid="Actuator Tube-3" entityUid="Actuator Tube*:*Default">
+<Transform>
+<Rotation>0.91886009465081708 0.31682956700734888 0.23519173439606089 -0.38313714374221697 0.85891780458246814 0.33980308129310527 -0.094350705049550079 -0.40234218078790696 0.91061447057219769</Rotation>
+<Translation>-0.24101958189728695 0.23569336444788122 0.0093914064694372232</Translation>
+</Transform>
+</Instance>
+<Instance name="Actuator Cylinder-2" uid="Actuator Cylinder-2" entityUid="Actuator Cylinder*:*Default">
+<Transform>
+<Rotation>0.53371823342199876 0.43669931741864404 0.72418129876363946 -0.19726253610692362 0.89701459655258442 -0.3955405231076447 -0.82233347199391416 0.068253349644504149 0.56489746069595625</Rotation>
+<Translation>-0.18349047258001155 0.27125086133127169 0.16034994174378855</Translation>
+</Transform>
+</Instance>
+<Instance name="Actuator Cylinder-3" uid="Actuator Cylinder-3" entityUid="Actuator Cylinder*:*Default">
+<Transform>
+<Rotation>0.91886009465081786 0.31682956700734927 0.23519173439605731 -0.38313714374221591 0.85891780458246847 0.33980308129310594 -0.094350705049546693 -0.40234218078790618 0.91061447057219846</Rotation>
+<Translation>-0.22419515320067582 0.28130401087822737 -0.011973952187733202</Translation>
+</Transform>
+</Instance>
+<Instance name="Actuator Cylinder-1" uid="Actuator Cylinder-1" entityUid="Actuator Cylinder*:*Default">
+<Transform>
+<Rotation>0.63121568716982435 -0.35493698267711909 0.68962779424758469 0.2321049215100662 0.93484154807065323 0.26869794456167834 -0.7400635524612279 -0.0095403526626234476 0.67246927066561213</Rotation>
+<Translation>-0.11914780813913745 0.27547659469346342 0.17544931946220546</Translation>
+</Transform>
+</Instance>
+<Instance name="Actuator Cylinder-5" uid="Actuator Cylinder-5" entityUid="Actuator Cylinder*:*Default">
+<Transform>
+<Rotation>0.94054215660391483 0.30824903460895053 0.14269892891506489 -0.23416840606701103 0.89272411278615826 -0.3849789813096321 -0.24606017404466768 0.32867338059662921 0.91182684739828268</Rotation>
+<Translation>-0.011383116447021984 0.31120770917549123 -0.0062309059614709655</Translation>
+</Transform>
+</Instance>
+<Instance name="Actuator Cylinder-6" uid="Actuator Cylinder-6" entityUid="Actuator Cylinder*:*Default">
+<Transform>
+<Rotation>0.99929020124131596 0.03177331766146884 0.020237341423061848 -0.036488351479126956 0.94993424818208261 0.31031197904218466 -0.0093645026256541364 -0.31083014721150348 0.95041934201438105</Rotation>
+<Translation>0.0067468444306435262 0.30750464688935364 0.054709714089824897</Translation>
+</Transform>
+</Instance>
+<Instance name="Actuator Tube-1" uid="Actuator Tube-1" entityUid="Actuator Tube*:*Default">
+<Transform>
+<Rotation>0.71719576889223602 -0.35493698267712015 -0.59970823523704919 0.2788198361159322 0.93484154807065256 -0.21984262323114287 0.63866245237320718 -0.0095403526626233262 0.76942787420245795</Rotation>
+<Translation>-0.11065354380007535 0.25310419730460038 0.17567763682940313</Translation>
+</Transform>
+</Instance>
+<Instance name="Actuator Tube-2" uid="Actuator Tube-2" entityUid="Actuator Tube*:*Default">
+<Transform>
+<Rotation>-0.87012864274068291 0.43669931741864432 0.22840720489587682 0.44043500243406558 0.89701459655258431 -0.037172869172413824 -0.22111796334346406 0.068253349644504219 -0.97285575834711668</Rotation>
+<Translation>-0.19654797890718273 0.24442972078247116 0.15830913584076606</Translation>
+</Transform>
+</Instance>
+<Instance name="Ball Joint Revolve-1" uid="Ball Joint Revolve-1" entityUid="Ball Joint Revolve*:*Default">
+<Transform>
+<Rotation>-0.35493698267711798 -0.93481450104934205 0.011899031722507615 0.93484154807065367 -0.35475986860177722 0.014721264569110729 -0.0095403526626234181 0.016348830463362579 0.99982083265630806</Rotation>
+<Translation>-0.12955456047123046 0.30288614888289561 0.17516959632213727</Translation>
+</Transform>
+</Instance>
+<Instance name="Ball Joint Revolve-4" uid="Ball Joint Revolve-4" entityUid="Ball Joint Revolve*:*Default">
+<Transform>
+<Rotation>-0.12109119778392476 -0.99263294916071076 0.0040926836873366439 0.97042933935147901 -0.1192479017765794 -0.20987337908304354 0.20881527517187543 -0.021442158529248717 0.97772000833188466</Rotation>
+<Translation>-0.18379751503071801 0.31384796160561274 -0.053142535177611881</Translation>
+</Transform>
+</Instance>
+<Instance name="Actuator Tube-4" uid="Actuator Tube-4" entityUid="Actuator Tube*:*Default">
+<Transform>
+<Rotation>0.99263294916071065 -0.12109119778392514 0.0040926836873330461 0.11924790177657903 0.97042933935147879 -0.20987337908304513 0.021442158529252534 0.20881527517187656 0.97772000833188444</Rotation>
+<Translation>-0.17723618121008394 0.26126518960111356 -0.064457203397301016</Translation>
+</Transform>
+</Instance>
+<Instance name="Actuator Tube-6" uid="Actuator Tube-6" entityUid="Actuator Tube*:*Default">
+<Transform>
+<Rotation>0.48052363266894649 0.031773317661468653 0.87640601020955056 -0.28720679161774793 0.94993424818208272 0.12303325964706011 -0.82861890956897599 -0.31083014721150326 0.46559136835770087</Rotation>
+<Translation>0.0050430281152115041 0.25656525529414692 0.071377708341743257</Translation>
+</Transform>
+</Instance>
+<Instance name="Ball Joint Revolve-2" uid="Ball Joint Revolve-2" entityUid="Ball Joint Revolve*:*Default">
+<Transform>
+<Rotation>0.43669931741864348 -0.89886526183502391 -0.036536929706047175 0.89701459655258442 0.43816275216732004 -0.058122424112934119 0.068253349644504385 -0.0073921363227048087 0.99764063498982003</Rotation>
+<Translation>-0.1706864485932974 0.29755132930219286 0.16235112995536538</Translation>
+</Transform>
+</Instance>
+<Instance name="Ball Joint Revolve-3" uid="Ball Joint Revolve-3" entityUid="Ball Joint Revolve*:*Default">
+<Transform>
+<Rotation>0.31682956700734893 -0.9188600946508183 0.23519173439605634 0.85891780458246858 0.38313714374221525 0.33980308129310643 -0.40234218078790623 0.09435070504954586 0.91061447057219858</Rotation>
+<Translation>-0.21490571029601949 0.30648748090858602 -0.023770624928435017</Translation>
+</Transform>
+</Instance>
+<Instance name="Actuator Tube-5" uid="Actuator Tube-5" entityUid="Actuator Tube*:*Default">
+<Transform>
+<Rotation>0.94522954473318122 0.30824903460894942 0.10734822041447066 -0.24843245888330423 0.8927241127861586 -0.37593213725799141 -0.21171306321693625 0.32867338059662915 0.92040827231749978</Rotation>
+<Translation>-0.034780641450322808 0.24344582704515322 -0.031178733130437751</Translation>
+</Transform>
+</Instance>
+<Instance name="Ball Joint Revolve-6" uid="Ball Joint Revolve-6" entityUid="Ball Joint Revolve*:*Default">
+<Transform>
+<Rotation>0.031773317661469125 0.25754657370538009 -0.96574335030452207 0.94993424818208261 -0.30826677211580128 -0.050956072651317172 -0.3108301472115037 -0.91577363992524052 -0.25444696893960256</Rotation>
+<Translation>0.0076784381044779715 0.33535671904605213 0.04559617417358356</Translation>
+</Transform>
+</Instance>
+<Instance name="Ball Joint Revolve-8" uid="Ball Joint Revolve-8" entityUid="Ball Joint Revolve*:*Default">
+<Transform>
+<Rotation>-0.031773317661469111 0.99526502706888909 -0.09185848996335004 -0.94993424818208261 -0.0014887640224049855 0.31244632773074327 0.31083014721150332 0.097186982025624702 0.945483638202812</Rotation>
+<Translation>-0.0022432290909164924 0.038726333501031468 0.14265727770028525</Translation>
+</Transform>
+</Instance>
+<Instance name="Ball Joint Revolve-11" uid="Ball Joint Revolve-11" entityUid="Ball Joint Revolve*:*Default">
+<Transform>
+<Rotation>0.12109119778392538 0.99263294916071054 0.0040926836873378305 -0.9704293393514789 0.11924790177658022 -0.20987337908304463 -0.20881527517187665 0.021442158529247878 0.97772000833188444</Rotation>
+<Translation>-0.14946754773427401 0.038726333501031968 -0.11234272229971587</Translation>
+</Transform>
+</Instance>
+<Instance name="Ball Socket 3D-6" uid="Ball Socket 3D-6" entityUid="Ball Socket 3D*:*Default">
+<Transform>
+<Rotation>-0.15381496536973352 0.88182722406999836 -0.44578212539009315 0.98453857445517456 0.17504515520990871 0.0065566033364585219 0.083813792648229149 -0.43788119453401975 -0.89511748258839152</Rotation>
+<Translation>-0.0023452547522885966 0.33738238016238165 0.0034057975576331713</Translation>
+</Transform>
+</Instance>
+<Instance name="Ball Joint Revolve-7" uid="Ball Joint Revolve-7" entityUid="Ball Joint Revolve*:*Default">
+<Transform>
+<Rotation>0.3549369826771181 0.93481450104934194 0.011899031722501266 -0.93484154807065356 0.35475986860177749 0.01472126456910839 0.0095403526626234806 -0.016348830463355803 0.99982083265630817</Rotation>
+<Translation>-0.029259394932558015 0.038726333501038088 0.17786543050199588</Translation>
+</Transform>
+</Instance>
+<Instance name="Ball Socket 3D-3" uid="Ball Socket 3D-3" entityUid="Ball Socket 3D*:*Default">
+<Transform>
+<Rotation>-0.15381496536973122 0.60012541218408366 -0.78497799082470598 0.9845385744551749 0.1604695916744214 -0.070237493958828515 0.083813792648229232 -0.78364468976617752 -0.61552924249233787</Rotation>
+<Translation>-0.17068644859329507 0.29755132930219358 0.16235112995536649</Translation>
+</Transform>
+</Instance>
+<Instance name="Ball Joint Revolve-5" uid="Ball Joint Revolve-5" entityUid="Ball Joint Revolve*:*Default">
+<Transform>
+<Rotation>0.30824903460894937 -0.94054215660391538 0.14269892891506417 0.89272411278615871 0.2341684060670105 -0.38497898130963126 0.32867338059662893 0.2460601740446664 0.91182684739828312</Rotation>
+<Translation>-0.0023452547522868294 0.33738238016238098 0.0034057975576220695</Translation>
+</Transform>
+</Instance>
+<Instance name="Ball Socket 3D-5" uid="Ball Socket 3D-5" entityUid="Ball Socket 3D*:*Default">
+<Transform>
+<Rotation>-0.15381496536973299 0.67635781688604202 -0.72033399195474246 0.98453857445517468 0.16674437727152577 -0.053666638222490154 0.083813792648229274 -0.7174513336704299 -0.69154814147421528</Rotation>
+<Translation>-0.18379751503071937 0.31384796160561368 -0.053142535177604082</Translation>
+</Transform>
+</Instance>
+<Instance name="Ball Joint Revolve-9" uid="Ball Joint Revolve-9" entityUid="Ball Joint Revolve*:*Default">
+<Transform>
+<Rotation>-0.43669931741864504 0.89886526183502324 -0.036536929706047293 -0.89701459655258386 -0.43816275216732165 -0.058122424112934057 -0.068253349644504385 0.0073921363227048235 0.99764063498982014</Rotation>
+<Translation>-0.29669186637762679 0.038726333501032204 0.1426572777002883</Translation>
+</Transform>
+</Instance>
+<Instance name="Ball Joint Revolve-10" uid="Ball Joint Revolve-10" entityUid="Ball Joint Revolve*:*Default">
+<Transform>
+<Rotation>-0.3168295670073486 0.91886009465081642 0.23519173439606406 -0.85891780458246902 -0.38313714374221769 0.33980308129310244 0.4023421807879054 -0.094350705049553993 0.91061447057219802</Rotation>
+<Translation>-0.3136749382034128 0.038726333501030101 0.10165651536771961</Translation>
+</Transform>
+</Instance>
+<Instance name="Ball Socket 3D-1" uid="Ball Socket 3D-1" entityUid="Ball Socket 3D*:*Default">
+<Transform>
+<Rotation>-0.1538149653697336 0.64004405034734968 -0.75278454423776986 0.98453857445517445 0.16389758946249419 -0.061817275725774404 0.083813792648229302 -0.75065384418075332 -0.65535795896485205</Rotation>
+<Translation>0.0076784381044746608 0.33535671904605246 0.045596174173580264</Translation>
+</Transform>
+</Instance>
+<Instance name="Ball Socket 3D-8" uid="Ball Socket 3D-8" entityUid="Ball Socket 3D*:*Default">
+<Transform>
+<Rotation>0 -0.15290574446372432 0.98824077699212265 -1 0 0 0 -0.98824077699212265 -0.15290574446372432</Rotation>
+<Translation>-0.1494675477342752 0.038726333501033425 -0.11234272229971343</Translation>
+</Transform>
+</Instance>
+<Instance name="Ball Joint Revolve-12" uid="Ball Joint Revolve-12" entityUid="Ball Joint Revolve*:*Default">
+<Transform>
+<Rotation>-0.30824903460894937 0.9405421566039146 0.14269892891506972 -0.89272411278615871 -0.23416840606700812 -0.38497898130963276 -0.32867338059662898 -0.24606017404467187 0.91182684739828179</Rotation>
+<Translation>-0.1054683100668472 0.038726333501030809 -0.10655011276885681</Translation>
+</Transform>
+</Instance>
+<Instance name="Ball Socket 3D-2" uid="Ball Socket 3D-2" entityUid="Ball Socket 3D*:*Default">
+<Transform>
+<Rotation>-0.15381496536973169 0.79277784309122268 0.58978322113462744 0.98453857445517479 0.072335124556946073 0.15953502801925132 0.083813792648229704 0.60520320658350757 -0.79164659217542255</Rotation>
+<Translation>-0.12955456047123648 0.30288614888288851 0.17516959632214263</Translation>
+</Transform>
+</Instance>
+<Instance name="Ball Socket 3D-4" uid="Ball Socket 3D-4" entityUid="Ball Socket 3D*:*Default">
+<Transform>
+<Rotation>-0.15381496536973166 0.87121454525279995 -0.46618255283554427 0.9845385744551749 0.17515033099783114 0.0024813224543244233 0.083813792648229371 -0.45859304147719809 -0.8846850685247335</Rotation>
+<Translation>-0.21490571029601546 0.30648748090858924 -0.02377062492843407</Translation>
+</Transform>
+</Instance>
+<Instance name="Ball Socket 3D-10" uid="Ball Socket 3D-10" entityUid="Ball Socket 3D*:*Default">
+<Transform>
+<Rotation>0 -0.59302535452783267 0.80518378578256167 -1 0 0 0 -0.80518378578256178 -0.59302535452783267</Rotation>
+<Translation>-0.0022432290909167318 0.038726333501033383 0.14265727770028513</Translation>
+</Transform>
+</Instance>
+<Instance name="Ball Socket 3D-11" uid="Ball Socket 3D-11" entityUid="Ball Socket 3D*:*Default">
+<Transform>
+<Rotation>0 -0.95685904090860863 0.29055253540703718 -1 0 -1.198007449697891e-16 1.2533377113932429e-16 -0.29055253540703718 -0.95685904090860863</Rotation>
+<Translation>-0.29669186637762651 0.038726333501033439 0.14265727770028919</Translation>
+</Transform>
+</Instance>
+<Instance name="Ball Socket 3D-9" uid="Ball Socket 3D-9" entityUid="Ball Socket 3D*:*Default">
+<Transform>
+<Rotation>0 -0.091751561897576217 0.99578192938482035 -1.0000000000000002 0 0 0 -0.99578192938482035 -0.091751561897576203</Rotation>
+<Translation>-0.31367493820341386 0.038726333501033432 0.10165651536771755</Translation>
+</Transform>
+</Instance>
+<Instance name="Ball Socket 3D-7" uid="Ball Socket 3D-7" entityUid="Ball Socket 3D*:*Default">
+<Transform>
+<Rotation>0 -0.68054405563005316 0.73270716411578718 -1 -1.3877787807814457e-16 0 1.6826817716975029e-16 -0.73270716411578718 -0.68054405563005327</Rotation>
+<Translation>-0.10546831006684665 0.038726333501033425 -0.10655011276885501</Translation>
+</Transform>
+</Instance>
+<Instance name="Ball Socket 3D-12" uid="Ball Socket 3D-12" entityUid="Ball Socket 3D*:*Default">
+<Transform>
+<Rotation>0 -0.74177324637332565 0.67065076676671131 -0.99999999999999989 0 0 0 -0.6706507667667112 -0.74177324637332542</Rotation>
+<Translation>-0.029259394932558358 0.038726333501033446 0.17786543050199832</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Actuator Cylinder-1</Uid>
+</InstancePath>
+<Position>0 -0.18000000000000005 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Actuator Tube-1</Uid>
+</InstancePath>
+<Position>0 -0.19 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Actuator Cylinder-2</Uid>
+</InstancePath>
+<Position>0 -0.18000000000000005 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Actuator Tube-2</Uid>
+</InstancePath>
+<Position>0 -0.19000000000000011 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Actuator Cylinder-3</Uid>
+</InstancePath>
+<Position>0 -0.18000000000000005 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Actuator Tube-3</Uid>
+</InstancePath>
+<Position>0 -0.19 0</Position>
+<Axis>0 1.0000000000000002 -1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Actuator Cylinder-4</Uid>
+</InstancePath>
+<Position>0 -0.18000000000000002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Actuator Tube-4</Uid>
+</InstancePath>
+<Position>0 -0.19 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Actuator Cylinder-5</Uid>
+</InstancePath>
+<Position>0 -0.18000000000000002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Actuator Tube-5</Uid>
+</InstancePath>
+<Position>0 -0.19000000000000003 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Actuator Cylinder-6</Uid>
+</InstancePath>
+<Position>0 -0.17999999999999999 0</Position>
+<Axis>0 1 1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Actuator Tube-6</Uid>
+</InstancePath>
+<Position>0 -0.19000000000000006 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Actuator Cylinder-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Ball Joint Revolve-1</Uid>
+</InstancePath>
+<Position>-0.029320000000000068 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Actuator Cylinder-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Ball Joint Revolve-2</Uid>
+</InstancePath>
+<Position>-0.029320000000000068 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Actuator Cylinder-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Ball Joint Revolve-3</Uid>
+</InstancePath>
+<Position>-0.02932000000000004 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Actuator Cylinder-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Ball Joint Revolve-4</Uid>
+</InstancePath>
+<Position>-0.029320000000000068 0 0</Position>
+<Axis>0.99999999999999989 1.0061396160665481e-16 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Actuator Cylinder-5</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Ball Joint Revolve-5</Uid>
+</InstancePath>
+<Position>-0.029320000000000013 0 0</Position>
+<Axis>1 1.1102230246251565e-16 1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Actuator Cylinder-6</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Ball Joint Revolve-6</Uid>
+</InstancePath>
+<Position>-0.029320000000000068 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Actuator Tube-5</Uid>
+</InstancePath>
+<Position>0 -0.20000000000000001 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Ball Joint Revolve-12</Uid>
+</InstancePath>
+<Position>-0.029319999999999992 0 0</Position>
+<Axis>1 0 -1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Actuator Tube-4</Uid>
+</InstancePath>
+<Position>0 -0.19999999999999998 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Ball Joint Revolve-11</Uid>
+</InstancePath>
+<Position>-0.029320000000000013 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Actuator Tube-3</Uid>
+</InstancePath>
+<Position>0 -0.20000000000000001 0</Position>
+<Axis>0 -1.0000000000000002 1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Ball Joint Revolve-10</Uid>
+</InstancePath>
+<Position>-0.029319999999999985 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Actuator Tube-2</Uid>
+</InstancePath>
+<Position>0 -0.20000000000000007 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Ball Joint Revolve-9</Uid>
+</InstancePath>
+<Position>-0.029319999999999985 0 0</Position>
+<Axis>1.0000000000000002 1.0375814790686277e-16 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident16">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Actuator Tube-1</Uid>
+</InstancePath>
+<Position>0 -0.19999999999999996 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Ball Joint Revolve-7</Uid>
+</InstancePath>
+<Position>-0.029319999999999999 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident17">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Actuator Tube-6</Uid>
+</InstancePath>
+<Position>0 -0.20000000000000001 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Ball Joint Revolve-8</Uid>
+</InstancePath>
+<Position>-0.029320000000000006 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Ball Joint Revolve-12</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Ball Socket 3D-7</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Ball Joint Revolve-11</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Ball Socket 3D-8</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric9">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Ball Joint Revolve-10</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Ball Socket 3D-9</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Ball Joint Revolve-9</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Ball Socket 3D-11</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Ball Joint Revolve-7</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Ball Socket 3D-12</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric12">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Ball Joint Revolve-8</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Ball Socket 3D-10</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric13">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Ball Joint Revolve-5</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Ball Socket 3D-6</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric14">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Ball Joint Revolve-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Ball Socket 3D-5</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric15">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Ball Joint Revolve-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Ball Socket 3D-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric16">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Ball Joint Revolve-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Ball Socket 3D-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric17">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Ball Joint Revolve-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Ball Socket 3D-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric18">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Ball Joint Revolve-6</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Ball Socket 3D-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident18">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Hexapod Base-1</Uid>
+</InstancePath>
+<Position>0.043999237667428651 -0.010000000000000002 -0.16420739046914162</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Ball Socket 3D-7</Uid>
+</InstancePath>
+<Position>0.017500000000000009 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident19">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Hexapod Base-1</Uid>
+</InstancePath>
+<Position>0 -0.010000000000000002 -0.17000000000000004</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Ball Socket 3D-8</Uid>
+</InstancePath>
+<Position>0.017500000000000005 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident20">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Hexapod Base-1</Uid>
+</InstancePath>
+<Position>-0.16420739046913857 -0.010000000000000002 0.043999237667430954</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Ball Socket 3D-9</Uid>
+</InstancePath>
+<Position>0.017500000000000012 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident21">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Hexapod Base-1</Uid>
+</InstancePath>
+<Position>-0.14722431864335145 -0.010000000000000002 0.085000000000002573</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Ball Socket 3D-11</Uid>
+</InstancePath>
+<Position>0.017500000000000002 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident22">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Hexapod Base-1</Uid>
+</InstancePath>
+<Position>0.12020815280171691 -0.010000000000000002 0.12020815280171171</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Ball Socket 3D-12</Uid>
+</InstancePath>
+<Position>0.017499999999999998 0 0</Position>
+<Axis>-0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident23">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Hexapod Base-1</Uid>
+</InstancePath>
+<Position>0.14722431864335844 -0.010000000000000002 0.084999999999998521</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Ball Socket 3D-10</Uid>
+</InstancePath>
+<Position>0.017500000000000005 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident32">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Hexapod Top Ring-1</Uid>
+</InstancePath>
+<Position>0 -0.010000000000000009 -0.12500000000000003</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Ball Socket 3D-3</Uid>
+</InstancePath>
+<Position>0.017500000000000016 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident33">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Hexapod Top Ring-1</Uid>
+</InstancePath>
+<Position>0.042752517915708707 -0.010000000000000009 -0.11746157759823853</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Ball Socket 3D-2</Uid>
+</InstancePath>
+<Position>0.017500000000000016 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident34">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Hexapod Top Ring-1</Uid>
+</InstancePath>
+<Position>0.10825317547305761 -0.0099999999999999534 0.062499999999999029</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Ball Socket 3D-1</Uid>
+</InstancePath>
+<Position>0.017500000000000016 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident35">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Hexapod Top Ring-1</Uid>
+</InstancePath>
+<Position>0.08034845121082014 -0.010000000000000009 0.095755555389871377</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Ball Socket 3D-6</Uid>
+</InstancePath>
+<Position>0.017500000000000016 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident36">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Hexapod Top Ring-1</Uid>
+</InstancePath>
+<Position>-0.10825317547305266 -0.010000000000000009 0.062500000000001915</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Ball Socket 3D-5</Uid>
+</InstancePath>
+<Position>0.01749999999999996 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident37">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Hexapod Top Ring-1</Uid>
+</InstancePath>
+<Position>-0.12310096912652385 -0.010000000000000064 0.021706022208368085</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Ball Socket 3D-4</Uid>
+</InstancePath>
+<Position>0.01749999999999996 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Eş Merkezli3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Actuator Cylinder-1</Uid>
+</InstancePath>
+<Position>0 -0.18000000000000005 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Actuator Tube-1</Uid>
+</InstancePath>
+<Position>0 -0.19 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Eş Merkezli4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Actuator Cylinder-1</Uid>
+</InstancePath>
+<Position>0 -0.18000000000000005 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Actuator Tube-1</Uid>
+</InstancePath>
+<Position>0 -0.19 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Uzaklığı Sınırla5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Actuator Cylinder-1</Uid>
+</InstancePath>
+<Position>0 -0.18000000000000005 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Actuator Tube-1</Uid>
+</InstancePath>
+<Position>0 -0.19 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Uzaklığı Sınırla6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Actuator Cylinder-1</Uid>
+</InstancePath>
+<Position>0 -0.18000000000000005 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Actuator Tube-1</Uid>
+</InstancePath>
+<Position>0 -0.19 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Uzaklığı Sınırla7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Actuator Cylinder-3</Uid>
+</InstancePath>
+<Position>0 -0.18000000000000005 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Actuator Tube-3</Uid>
+</InstancePath>
+<Position>0 -0.19 0</Position>
+<Axis>0 1.0000000000000002 -1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Uzaklığı Sınırla8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Actuator Cylinder-2</Uid>
+</InstancePath>
+<Position>0 -0.18000000000000005 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Actuator Tube-2</Uid>
+</InstancePath>
+<Position>0 -0.19000000000000011 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Uzaklığı Sınırla10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Actuator Cylinder-6</Uid>
+</InstancePath>
+<Position>0 -0.17999999999999999 0</Position>
+<Axis>0 -1 -1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Actuator Tube-6</Uid>
+</InstancePath>
+<Position>0 -0.19000000000000006 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Uzaklığı Sınırla11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Actuator Cylinder-5</Uid>
+</InstancePath>
+<Position>0 -0.18000000000000002 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Actuator Tube-5</Uid>
+</InstancePath>
+<Position>0 -0.19000000000000003 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Uzaklığı Sınırla12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Actuator Cylinder-4</Uid>
+</InstancePath>
+<Position>0 -0.18000000000000002 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Actuator Tube-4</Uid>
+</InstancePath>
+<Position>0 -0.19 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Distance>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Actuator Cylinder" uid="Actuator Cylinder*:*Default" version="294">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Actuator Cylinder.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.63197201459586938</Mass>
+<CenterOfMass>0 -0.090416435081517782 0</CenterOfMass>
+<Inertia>0.0017158451767541993 4.5717645073918852e-05 0.0017158451767541993 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Actuator Cylinder_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.89803921568627454" b="0.89803921568627454" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.89803921568627454" b="0.89803921568627454" a="1"/>
+<Specular r="0.62862744027493045" g="0.62862744027493045" b="0.62862744027493045" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.30000001192092896</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Actuator Tube" uid="Actuator Tube*:*Default" version="299">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Actuator Tube.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.055134951070500815</Mass>
+<CenterOfMass>0 -0.10730769230769235 0</CenterOfMass>
+<Inertia>0.00020987056595209294 9.7143542636140128e-06 0.00020987056595209294 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Actuator Tube_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.5</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Ball Joint Revolve" uid="Ball Joint Revolve*:*Default" version="303">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Ball Joint Revolve.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.11525564966781858</Mass>
+<CenterOfMass>-0.010431431311361053 0 0</CenterOfMass>
+<Inertia>6.4933175571844662e-06 2.109174033360566e-05 2.109174033360566e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Ball Joint Revolve_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.51764705882352935" b="0" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.51764705882352935" b="0" a="1"/>
+<Specular r="0.45294116875704599" g="0.36235293500563676" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.30000001192092896</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Ball Socket 3D" uid="Ball Socket 3D*:*Default" version="309">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Ball Socket 3D.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.038285552943723204</Mass>
+<CenterOfMass>0.007322852961473481 0 0</CenterOfMass>
+<Inertia>7.1649453778924021e-06 5.3716624432362875e-06 5.3716624432362875e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Ball Socket 3D_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Diffuse r="0.48862745098039212" g="0.48862745098039212" b="0.48862745098039212" a="1"/>
+<Specular r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.050000000000000003</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Hexapod Base" uid="Hexapod Base*:*Default" version="305">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Hexapod Base.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>6.6299778662276561</Mass>
+<CenterOfMass>0 -0.010117543579082096 0</CenterOfMass>
+<Inertia>0.06581516603514527 0.13118851675196039 0.065815166035144937 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Hexapod Base_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.8666666666666667" g="0.8666666666666667" b="0.8901960784313725" a="1"/>
+<Diffuse r="0.8666666666666667" g="0.8666666666666667" b="0.8901960784313725" a="1"/>
+<Specular r="0.8666666666666667" g="0.8666666666666667" b="0.8901960784313725" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.31</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Hexapod Top Ring" uid="Hexapod Top Ring*:*Default" version="293">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Hexapod Top Ring.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.964712775646851</Mass>
+<CenterOfMass>6.2086568091417388e-16 -0.010396654074473925 -1.0393352610194383e-15</CenterOfMass>
+<Inertia>0.016065246364244928 0.032000130110806546 0.016065246364244629 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Hexapod Top Ring_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.60000002384185791</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
